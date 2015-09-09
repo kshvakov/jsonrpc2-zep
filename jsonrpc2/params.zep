@@ -2,5 +2,5 @@ namespace JsonRPC2;
 
 interface Params {
 
-	public function Marshal();
+	public function Get();
 }

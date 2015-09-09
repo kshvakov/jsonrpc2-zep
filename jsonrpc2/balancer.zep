@@ -1,6 +1,7 @@
 namespace JsonRPC2;
 
-interface Discovery {
+interface Balancer {
 
 	public function Get() -> array;
+	public function Len() -> int;
 }
